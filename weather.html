@@ -1,0 +1,127 @@
+<!DOCTYPE html >
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Clock</title>
+<link rel="stylesheet" href="css/Clock.css">
+<!--<link rel="stylesheet" href="css/weather.css">-->
+<script src="script/weather.js"></script>
+<script src="script/clock.js"></script>
+</head>
+<body>
+  <section id =  "content1">
+  <!--<button id = "button1">ボタン</button>-->
+  
+  <div class="weather_container">
+    <div class="bg"></div>
+    <div class="weather">
+      <form action="#" class="search-form-003">
+        <label>
+            <input type="text" placeholder="キーワードを入力">
+        </label>
+        <button type="submit" aria-label="検索"></button>
+      </form>
+        <!-- <input type="search" class="searchbox" name="search" placeholder="search">
+        <input type="image" class="img" src="./src/検索用の虫眼鏡アイコン素材 .png"value="検索"> -->
+      <div class="today">
+        <p class="cityname">Osaka</p>
+        <div class="main">
+          <!-- <img src="" alt="" class="icon" /> -->
+          <p class="temp">- °C</p>
+        </div>
+        <div class="min_max">
+          <p class="mintemp">min temp - °C</p>
+          <p class="maxtemp">max temp - °C</p>
+        </div>
+        <p class="description">-</p>
+        <p class="humidity">Humidity : -%</p>
+        <p class="wind">wind speed : - km/h</p>
+      </div>
+
+      <div  class="future-forecast">
+        <div class="day" id="current-temp">
+            <p class="day_0">Mon</p>
+            <img src="-" alt="-" class="m-icon_0">
+            <div class="min_max">
+              <p class="m_max_0">-C</p>
+              <p class="m_min_0">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_1">Mon</div>
+            <img src="-" alt="-" class="m-icon_1">
+            <div class="min_max">
+              <p class="m_max_1">-C</p>
+              <p class="m_min_1">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_2">Tue</div>
+            <img src="-"  alt="-" class="m-icon_2">
+            <div class="min_max">
+              <p class="m_max_2">-C</p>
+              <p class="m_min_2">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_3">wed</div>
+            <img src="-" alt="" class="m-icon_3">
+            <div class="min_max">
+              <p class="m_max_3">-C</p>
+              <p class="m_min_3">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_4">Thur</div>
+            <img src="-" alt="-" class="m-icon_4">
+            <div class="min_max">
+              <p class="m_max_4">-C</p>
+              <p class="m_min_4">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_5">Fri</div>
+            <img src="-" alt="-" class="m-icon_5">
+            <div class="min_max">
+              <p class="m_max_5">-C</p>
+              <p class="m_min_5">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_6">Mon</div>
+            <img src="-" alt="-" class="m-icon_6">
+            <div class="min_max">
+              <p class="m_max_6">-C</p>
+              <p class="m_min_6">-C</p>
+            </div>
+        </div>
+        <div class="day" id="current-temp">
+            <div class="day_7">Mon</div>
+            <img src="-" alt="-" class="m-icon_7">
+            <div class="min_max">
+              <p class="m_max_7">-C</p>
+              <p class="m_min_7">-C</p>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!-- <div class="clock_container">
+      <p class="clock-date"></p>
+      <p class="clock-time"></p>
+    </div> -->
+  </div>
+  
+  <span id="text"></span>
+</section>
+</body>
+<script>
+  //window.addEventListener('load',function(){
+    /*document.getElementById("button1").addEventListener('click',() => {
+      document.documentElement.requestFullscreen();
+    });*/
+  //});
+  //document.getElementById("content1").addEventListener('mousemove',() => {
+    //  document.documentElement.requestFullscreen();
+    //});
+</script>
+</html>
