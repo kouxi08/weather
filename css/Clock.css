@@ -1,0 +1,132 @@
+/* Google Fonts 読み込み */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/* 全体を囲うコンテナー */
+
+.weather_container {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: "Poppins", "serif";
+
+}
+
+
+p, img{
+  margin: 0;
+}
+
+.bg{
+  width: 100vw;
+  height: 100vh; /* 全画面表示 */
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../src/sky-g185a17ee3_1920.jpg);
+}
+
+
+/* 時計 */
+.clock_container{
+  
+  color:rgb(240, 245, 245);
+  text-align: right;
+  margin:0 3em;
+}
+
+/* 日付のスタイル */
+.clock-date,.clock-time  {
+  font-size: 40px;
+}
+
+/* 文字サイズ調整 */
+@media screen and (max-width: 500px) {
+  .clock-date {
+    font-size: 9vw;
+  }
+  .clock-time {
+    font-size: 40vw;
+  }
+}
+
+
+
+/* 天気 */
+.weather {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 30px;
+  font-size: 1.4em;
+}
+
+
+
+
+
+
+.temp{
+  font-size: 75px;
+}
+
+.main, .min_max{
+  justify-content: center;
+  display: flex;
+}
+
+.min_max p {
+  margin :0 10px
+}
+
+.today img{
+  width: 100px;
+}
+
+
+
+.future-forecast{
+  max-width: 1920px;
+  font-size: 1em;
+  margin: 70px 0;
+  color: aliceblue;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.future-forecast .min_max{
+  padding-bottom: 7px;
+}
+.future-forecast img{
+  width: 70px;
+}
+
+.future-forecast .day{
+  background-color: rgba(195, 195, 195, 0.566);
+  border-radius: 10px;
+  padding:0 5px;
+  margin: 0 10px;
+}
+section.conte {
+  height: 100vh;
+  width:auto;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+span{
+  font-variant-numeric: tabular-nums;
+}
+.cityname {
+  margin-top: 30px;
+  font-size: 60px;
+}
